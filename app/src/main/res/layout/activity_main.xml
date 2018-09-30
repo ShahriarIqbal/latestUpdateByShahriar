@@ -25,9 +25,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="HOME"
-            android:textColor="@android:color/white"
-            android:textSize="34sp" />
+            android:text="Univesity Admission Help Desk"
+            android:textColor="#F4D03F"
+            android:textSize="25dp" />
 
     </RelativeLayout>
 
