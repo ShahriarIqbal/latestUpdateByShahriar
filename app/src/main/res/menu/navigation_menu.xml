@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/nav_account"
+        android:title="@string/my_account" />
+
+
+
+    <item android:id="@+id/nav_exam"
+        android:title="@string/live_exam" />
+
+    <item android:id="@+id/nav_routine"
+        android:title="@string/routine" />
+
+    <item android:id="@+id/nav_result"
+        android:title="@string/result" />
+
+    <item android:id="@+id/nav_requirement"
+        android:title="@string/admission_requirement" />
+
+    <item android:id="@+id/nav_notice"
+        android:title="@string/notice" />
+
+    <item android:id="@+id/nav_settings"
+        android:title="@string/settings" />
+
+    <item android:id="@+id/nav_logout"
+        android:title="@string/log_out" />
+
+    <item android:id="@+id/nav_about"
+        android:title="@string/about" />
+    <item
+        android:id="@+id/nav_haha"
+        android:title="haha" />
+
+</menu>

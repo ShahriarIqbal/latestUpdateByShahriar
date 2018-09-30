@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3498DB"
+
+    tools:context=".ActivityEngineering">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextBuet"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="Bangladesh University of Engineering and Technology (BUET)"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/TextMist"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Military Institute of Science and Technology (MIST)"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/TextRuet"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Rajshahi University of Engineering and Technology (RUET)"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/TextKuet"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Khulna University of Engineering and Technology (KUET)"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/TextCuet"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Chittagong University of Engineering and Technology (CUET)"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>
