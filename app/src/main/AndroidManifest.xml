@@ -34,7 +34,10 @@
         <activity android:name=".EngKuetNotice" />
         <activity android:name=".EngCuetOptions" />
         <activity android:name=".EngCuetNotice" />
-        <activity android:name=".EngBuetSeats"></activity>
+        <activity android:name=".EngBuetSeats" />
+        <activity android:name=".GenDuOptions" />
+        <activity android:name=".GenRuOptions" />
+        <activity android:name=".GenDuNotice"></activity>
     </application>
 
 </manifest>

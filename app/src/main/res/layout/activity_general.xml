@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActivityGeneral"
-    android:background="#3498DB">
+    android:background="#3498DB"
 
-</RelativeLayout>
+    tools:context=".ActivityGeneral">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TextDu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="140dp"
+            android:gravity="center"
+            android:text="Dhaka University"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/TextRu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Rajshahi University"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>

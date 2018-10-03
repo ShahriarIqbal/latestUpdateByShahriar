@@ -17,9 +17,6 @@
     <item android:id="@+id/nav_result"
         android:title="@string/result" />
 
-    <item android:id="@+id/nav_requirement"
-        android:title="@string/admission_requirement" />
-
     <item android:id="@+id/nav_notice"
         android:title="@string/notice" />
 
@@ -31,8 +28,5 @@
 
     <item android:id="@+id/nav_about"
         android:title="@string/about" />
-    <item
-        android:id="@+id/nav_haha"
-        android:title="haha" />
 
 </menu>
