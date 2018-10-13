@@ -11,13 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".ActivityLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActivityRegister" />
+        <activity android:name=".MainActivity"/>
+
         <activity android:name=".ActivityEngineering" />
         <activity android:name=".ActivityNational" />
         <activity android:name=".ActivityPrivate" />
@@ -37,7 +41,8 @@
         <activity android:name=".EngBuetSeats" />
         <activity android:name=".GenDuOptions" />
         <activity android:name=".GenRuOptions" />
-        <activity android:name=".GenDuNotice"></activity>
+        <activity android:name=".GenDuNotice" ></activity>
+
     </application>
 
 </manifest>
