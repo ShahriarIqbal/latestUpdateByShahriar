@@ -32,6 +32,66 @@
             android:textColor="#F4D03F"
             android:textSize="20dp" />
 
+        <TextView
+            android:id="@+id/TextCu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Chittagong University"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextJahangirU"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Jahangirnagar University"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextJagannathU"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Jagannath University"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextComU"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Comilla University"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextIu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Islamic University"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/TextBu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Barisal University"
+            android:textColor="#F4D03F"
+            android:textSize="20dp" />
+
 
     </LinearLayout>
 </ScrollView>

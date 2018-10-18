@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class EngBuetOptions extends AppCompatActivity {
 
-    private Button BuetNotice, BuetSeats;
+    private Button BuetNotice, BuetSeats,BuetDepartment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class EngBuetOptions extends AppCompatActivity {
 
         BuetNotice = (Button) findViewById(R.id.BuetNotice);
         BuetSeats = (Button) findViewById(R.id.BuetSeats);
+        BuetDepartment = (Button)findViewById(R.id.BuetDepartment);
 
         BuetNotice.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +33,19 @@ public class EngBuetOptions extends AppCompatActivity {
             }
         });
 
+        BuetDepartment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openBuetDepartment();
+            }
+        });
 
+
+    }
+
+    public  void openBuetDepartment(){
+        Intent intent = new Intent(this, EngBuetDepartment.class);
+        startActivity(intent);
     }
 
     public void openBuetNotice() {

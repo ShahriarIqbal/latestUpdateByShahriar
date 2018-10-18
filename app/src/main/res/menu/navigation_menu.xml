@@ -3,30 +3,30 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <item android:id="@+id/nav_account"
-        android:title="@string/my_account" />
+
+    <item android:id="@+id/nav_db"
+        android:title="Dashboared" />
 
 
 
     <item android:id="@+id/nav_exam"
-        android:title="@string/live_exam" />
+        android:title="Live Exam" />
 
-    <item android:id="@+id/nav_routine"
-        android:title="@string/routine" />
+    <item android:id="@+id/nav_remainder"
+        android:title="Exam Remainder" />
 
-    <item android:id="@+id/nav_result"
-        android:title="@string/result" />
+    <item android:id="@+id/nav_search"
+        android:title="Search" />
 
-    <item android:id="@+id/nav_notice"
-        android:title="@string/notice" />
+
 
     <item android:id="@+id/nav_settings"
-        android:title="@string/settings" />
+        android:title="settings" />
 
     <item android:id="@+id/nav_logout"
-        android:title="@string/log_out" />
+        android:title="Log Out" />
 
     <item android:id="@+id/nav_about"
-        android:title="@string/about" />
+        android:title="About" />
 
 </menu>
