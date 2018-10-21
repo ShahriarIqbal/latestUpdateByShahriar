@@ -40,7 +40,9 @@
         <activity android:name=".GenDuOptions" />
         <activity android:name=".GenRuOptions" />
         <activity android:name=".GenDuNotice" />
-        <activity android:name=".EngBuetDepartment"></activity>
+        <activity android:name=".EngBuetDepartment" />
+        <activity android:name=".EngMistResult" />
+        <activity android:name=".EngMistDepartment"></activity>
     </application>
 
 </manifest>

@@ -20,12 +20,12 @@
         android:background="@drawable/rounded_button"/>
 
     <Button
-        android:id="@+id/MistSeats"
+        android:id="@+id/MistResult"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:background="@drawable/rounded_button"
-        android:text="Available Seats"
+        android:text="Result"
         android:textSize="15dp" />
 
     <Button
@@ -36,6 +36,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="181dp"
         android:background="@drawable/rounded_button"
-        android:text="Department"/>
+        android:text="About"/>
 
 </RelativeLayout>
