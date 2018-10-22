@@ -42,7 +42,27 @@
         <activity android:name=".GenDuNotice" />
         <activity android:name=".EngBuetDepartment" />
         <activity android:name=".EngMistResult" />
-        <activity android:name=".EngMistDepartment"></activity>
+        <activity android:name=".EngMistDepartment" />
+        <activity android:name=".ClgMirOptions" />
+        <activity android:name=".ClgMirDepartment" />
+        <activity android:name=".ClgMirNotice" />
+        <activity android:name=".ClgMirResult" />
+        <activity android:name=".ClgTituOptions" />
+        <activity android:name=".ClgTegOptions" />
+        <activity android:name=".ClgTegDepartment" />
+        <activity android:name=".ClgTegNotice" />
+        <activity android:name=".ClgTegResult" />
+        <activity android:name=".PrivEWOptions" />
+        <activity android:name=".PrivNSOptions" />
+        <activity android:name=".PrivDafOptions" />
+        <activity android:name=".PrivBRACOptions" />
+        <activity android:name=".PrivGreenOptions" />
+        <activity android:name=".PrivAhsanOptions" />
+        <activity android:name=".AgriBAUOptions" />
+        <activity android:name=".AgriBangabandhuOptions" />
+        <activity android:name=".AgriSherOptions" />
+        <activity android:name=".AgriSylhetOptions" />
+        <activity android:name=".LiveExam"></activity>
     </application>
 
 </manifest>

@@ -4,29 +4,50 @@
 
 
 
-    <item android:id="@+id/nav_db"
-        android:title="Dashboared" />
+    <item
+        android:id="@+id/nav_db"
+        android:title="Dashboared"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
 
 
 
-    <item android:id="@+id/nav_exam"
-        android:title="Live Exam" />
+    <item
+        android:id="@+id/nav_exam"
+        android:title="Live Exam"
+        android:orderInCategory="101"
+        app:showAsAction="never"/>
 
-    <item android:id="@+id/nav_remainder"
-        android:title="Exam Remainder" />
+    <item
+        android:id="@+id/nav_remainder"
+        android:title="Exam Remainder"
+        android:orderInCategory="102"
+        app:showAsAction="never"/>
 
-    <item android:id="@+id/nav_search"
-        android:title="Search" />
+    <item
+        android:id="@+id/nav_search"
+        android:title="Search"
+        android:orderInCategory="103"
+        app:showAsAction="never"/>
 
 
 
-    <item android:id="@+id/nav_settings"
-        android:title="settings" />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="settings"
+        android:orderInCategory="104"
+        app:showAsAction="never"/>
 
-    <item android:id="@+id/nav_logout"
-        android:title="Log Out" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log Out"
+        android:orderInCategory="105"
+        app:showAsAction="never"/>
 
-    <item android:id="@+id/nav_about"
-        android:title="About" />
+    <item
+        android:id="@+id/nav_about"
+        android:title="About"
+        android:orderInCategory="106"
+        app:showAsAction="never"/>
 
 </menu>

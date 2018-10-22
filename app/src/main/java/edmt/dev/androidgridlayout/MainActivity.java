@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -90,5 +91,61 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu manu) {
+        getMenuInflater().inflate(R.menu.navigation_menu, manu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id == R.id.nav_db) {
+
+            ////
+
+
+            return  true;
+        }
+        if (id == R.id.nav_exam) {
+
+            Intent intent = new Intent(MainActivity.this, LiveExam.class);
+            startActivity(intent);
+
+
+            return  true;
+        }
+        if (id == R.id.nav_remainder) {
+
+            ////
+
+
+            return  true;
+        }
+        if (id == R.id.nav_search) {
+
+            ////
+
+
+            return  true;
+        }
+        if (id == R.id.nav_settings) {
+
+            ////
+
+
+            return  true;
+        }
+        if (id == R.id.nav_logout) {
+
+            ////
+
+
+            return  true;
+        }
+
+        return true;
     }
 }
