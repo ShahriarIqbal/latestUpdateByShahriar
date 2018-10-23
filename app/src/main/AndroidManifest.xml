@@ -62,7 +62,21 @@
         <activity android:name=".AgriBangabandhuOptions" />
         <activity android:name=".AgriSherOptions" />
         <activity android:name=".AgriSylhetOptions" />
-        <activity android:name=".LiveExam"></activity>
+        <activity android:name=".LiveExam" />
+        <activity android:name=".GenCuOptions" />
+        <activity android:name=".GenJahangirOptions" />
+        <activity android:name=".GenJagannathOptions" />
+        <activity android:name=".GenComillaOptions" />
+        <activity android:name=".GenDuResult" />
+        <activity android:name=".GenDuDepartment" />
+        <activity android:name=".GenEWNotice" />
+        <activity android:name=".GenEWResult" />
+        <activity android:name=".GenEWDepartment" />
+        <activity android:name=".AgriBAUNotice" />
+        <activity android:name=".AgriBAUResult" />
+        <activity android:name=".AgriBAUDepartment" />
+        <activity android:name=".MedicalAllNotice" />
+        <activity android:name=".MedicalAllResult"></activity>
     </application>
 
 </manifest>

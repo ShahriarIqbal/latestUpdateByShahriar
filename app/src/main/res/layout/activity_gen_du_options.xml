@@ -20,12 +20,23 @@
         android:background="@drawable/rounded_button"/>
 
     <Button
-        android:id="@+id/DuSeats"
+        android:id="@+id/DuResult"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:background="@drawable/rounded_button"
-        android:text="Available Seats"
+        android:text="Result"
         android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/DuDepartment"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/rounded_button"
+        android:text="Department"
+        android:textSize="15dp"/>
 
 </RelativeLayout>

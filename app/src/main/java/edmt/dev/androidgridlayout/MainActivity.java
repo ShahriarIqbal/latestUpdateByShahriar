@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 
 //import android.content.Intent;
 //import android.graphics.Color;
@@ -22,15 +24,19 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
+    private FirebaseAuth firebaseAuth;
 
 
 
-    private CardView Engineering, Agriculture, General, Medical, National, Private;
+
+    private CardView Engineering, Agriculture, General, Medical, National, Private, Logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        firebaseAuth = FirebaseAuth.getInstance();
 
         Engineering = (CardView) findViewById(R.id.EngineeringCard);
         Agriculture = (CardView) findViewById(R.id.AgricultureCard);
@@ -38,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Medical = (CardView) findViewById(R.id.MedicalCard);
         National = (CardView) findViewById(R.id.NationalCard);
         Private = (CardView) findViewById(R.id.PrivateCard);
+        Logout = (CardView) findViewById(R.id.LogOutCard);
 
          Engineering.setOnClickListener(this);
          Agriculture.setOnClickListener(this);
@@ -45,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
          Medical.setOnClickListener(this);
          National.setOnClickListener(this);
          Private.setOnClickListener(this);
+         Logout.setOnClickListener(this);
 
 
 
@@ -86,11 +94,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
                 break;
 
+            case R.id.LogOutCard:
+
+                firebaseAuth.signOut();
+                finish();
+                i = new Intent(MainActivity.this, ActivityLogin.class);
+                startActivity(i);
+                break;
+
             default:
                 break;
 
         }
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        // Nothing
     }
 
     @Override
